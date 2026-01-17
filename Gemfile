@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 8.1.1"
+gem "rails", "~> 8.1.2"
 gem "propshaft"
 
 # データベース：本番環境でもビルド時にインストールされるよう、グループ指定を削除
