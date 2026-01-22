@@ -4,7 +4,7 @@ gem "rails", "~> 8.1.1"
 gem "propshaft"
 
 # データベース：本番環境でもビルド時にインストールされるよう、グループ指定を削除
-gem "sqlite3", "~> 1.4", group: [:development, :test]
+gem "sqlite3", "~> 2.9", group: [:development, :test]
 gem "pg", "~> 1.1"  # グループ指定を削除
 
 gem "carrierwave", "~> 3.0"
